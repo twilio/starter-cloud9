@@ -48,8 +48,5 @@ Which should look like:
 ![auth token](http://demo.kevinwhinnery.com/upload/starter-cloud9_-_Cloud9-20130827-081944.png)
 
 
-
-
-
 ## Begin Questing!
 This is but your first step into a larger world.  [Return to TwilioQuest](http://quest.twilio.com) to continue your adventure.  Huzzah!
