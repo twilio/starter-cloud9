@@ -12,7 +12,7 @@ Your first step will be [signing up for a free account with Cloud9](https://c9.i
 
 In the resulting popup, choose "Clone from URL":
 
-![clone from URL](http://demo.kevinwhinnery.com/upload/Fullscreen-20130827-080032.png)
+![clone from URL](http://demo.kevinwhinnery.com/upload/Fullscreen-20130827-080032.png?bustgithubcache=true)
 
 In the modal window, enter the URL for this repository, then click "Create":
 
