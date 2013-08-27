@@ -77,5 +77,25 @@ Note the URL that is displayed on the last line - this is the address of your ru
 
 Now, you should be able to run through the voice and SMS demos on the page, after entering in your mobile phone number.
 
+## Making Code Changes
+During your quest, you'll probably be making code changes, tweaking this sample project to do interesting things with the Twilio API.  After editing files and changing code, you'll need to stop and restart your Ruby server.
+
+To practice this, open `app.rb` in the Cloud9 editor.  Change the body of the text message sent for the "message" demo, [which happens on line 26](https://github.com/twilio/starter-cloud9/blob/master/app.rb#L26):
+
+    # Use the REST API client to send a text message
+    client.account.sms.messages.create(
+      :from => TWILIO_NUMBER,
+      :to => params[:to],
+      :body => 'I edited some code!'
+    )
+
+To stop your server, click on the Terminal window of your Cloud9 IDE.  Then, hit control-C on your keyboard to stop the Ruby server.  This will cause your Ruby app to become unavailable on your public URL.  To restart the server, and observe your code changes in action, enter the same command you used ot start the server initially:
+
+    ruby app.rb -p $PORT -o $IP
+
+__TIP:__ Press "up" on your keyboard in the Terminal to recall your last command.  This will be faster than typing `ruby app.rb -p $PORT -o $IP` every time.
+
+Now, navigate to your app's main web page and run the messaging demo.  You should now get a different message than you did the first time.  Repeat this process every time you change code in your application.
+
 ## Begin Questing!
 This is but your first step into a larger world.  [Return to TwilioQuest](http://quest.twilio.com) to continue your adventure.  Huzzah!
