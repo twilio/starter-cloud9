@@ -14,7 +14,7 @@ In the resulting popup, choose "Clone from URL":
 
 ![clone from URL](http://demo.kevinwhinnery.com/upload/Fullscreen-20130827-080032.png?bustgithubcache=true)
 
-In the modal window, enter the URL for this repository, then click "Create":
+In the modal window, enter the URL for this repository (https://github.com/twilio/starter-cloud9.git), then click "Create":
 
 ![modal](http://demo.kevinwhinnery.com/upload/Dashboard_-_Cloud9-20130827-080236.png)
 
@@ -49,7 +49,7 @@ Which should look like:
 
 The last bit of configuration you need to set up is your Twilio phone number.  When you signed up for an account, you should have been issued one.  You can reference this number, or buy a new number, [on this page in the admin console](https://www.twilio.com/user/account/phone-numbers/incoming).  Configure your Twilio phone number in the Terminal like this:
 
-    export TWILIO_PHONE_NUMBER=your twilio number
+    export TWILIO_NUMBER=your twilio number
 
 Which should look like:
 
