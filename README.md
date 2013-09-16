@@ -14,7 +14,7 @@ In the resulting popup, choose "Clone from URL":
 
 ![clone from URL](http://demo.kevinwhinnery.com/upload/Fullscreen-20130827-080032.png?bustgithubcache=true)
 
-In the modal window, enter the URL for this repository, then click "Create":
+In the modal window, enter the URL for this repository (https://github.com/twilio/starter-cloud9.git), then click "Create":
 
 ![modal](http://demo.kevinwhinnery.com/upload/Dashboard_-_Cloud9-20130827-080236.png)
 
