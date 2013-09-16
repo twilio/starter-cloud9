@@ -48,7 +48,7 @@ get '/hello' do
   # Build a TwiML response
   response = Twilio::TwiML::Response.new do |r|
     r.Say 'Hello there! You have successfully configured a web hook.'
-    r.Say 'Good luck on your Twilio quest!', :voice => 'woman'
+    r.Say 'Good luck on your Twilio quest!', :voice => 'alice'
   end
 
   # Render an XML (TwiML) document
